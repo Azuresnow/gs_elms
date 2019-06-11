@@ -187,7 +187,11 @@ setup_postdata($post);
   <input type="radio" name="slider" id="s5">
   <label for="s1" id="slide1"></label>
   <label for="s2" id="slide2"> </label>
-  <label for="s3" id="slide3"> <img class=".img_slide"src="https://internshell-3-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/03/Katherine-Casado-19_edited.jpg">  </label>
+  <label for="s3" id="slide3"> <div class="hero">
+  <div class="hgroup">
+    <h1 class="hero_h" >Tarragon</h1>
+    <p class="hero_p">An herb with narrow, pointed, gray-green leaves with a distinctive anise or licorice flavor</p>
+  </div><img class=".img_slide"src="https://internshell-3-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/03/Katherine-Casado-19_edited.jpg">  </div> </label>
   <label for="s4" id="slide4"></label>
   <label for="s5" id="slide5"></label>
 </section>
