@@ -110,7 +110,7 @@ setup_postdata($post);
       </div>
       <section class="ftco-animate">      
 
-            <section id="slider">
+            <section id="slider" class="ftco-animate">
   <input type="radio" name="slider" id="s1">
   <input type="radio" name="slider" id="s2">
   <input type="radio" name="slider" id="s3" checked>
