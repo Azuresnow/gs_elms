@@ -17,24 +17,24 @@
   <script src="/wp-content/themes/gs_elms/js/google-map.js"></script>
   <script src="/wp-content/themes/gs_elms/js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/style.css"
-	   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/css/animate.css">
+	   <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/animate.css">
     
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/aos.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/aos.css">
 
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/jquery.timepicker.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/flaticon.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/icomoon.css">
-    <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/style.css">
 
 
 
