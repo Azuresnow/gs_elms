@@ -2,6 +2,8 @@
 
 <style>
 <link rel='stylesheet' type='text/css' href='css/style.php' />
+	<?php include('style.css'); ?>
+
 </style>
 
 
