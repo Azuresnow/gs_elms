@@ -113,17 +113,17 @@ setup_postdata($post);
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			</section>
-<section class="ftco-animate">		
+		
       <div id="homepage_content" class="section-mission_statement">
         <p class="pre-title">
           <?php print($mission_statement_pre_title) ?>
         </p>
-</section>	      
+	      
 	<section class="ftco-animate">      
         <h2 class="field-mission_statement">
           <?php print($mission_statement) ?>
         </h2>
-</section>
+
 	<section class="ftco-animate">	
         <div class="field-mission_statement_body">
           <?php print($mission_statement_body) ?>
@@ -191,15 +191,16 @@ setup_postdata($post);
   <label for="s4" id="slide4"></label>
   <label for="s5" id="slide5"></label>
 </section>
+	       <section class="ftco-animate">
       <?php get_template_part("template-parts/story-carousel", "student") ?>
-   <section class="ftco-animate">   
+     
       <div class="news-events">
         <div class="news-events-inner">
           <p class="pre-title">
             <?php print($news_events_pre_title) ?>
           </p>
-		</section>
-	      <section class="ftco-animate"> 
+		
+	    
           <h2 class="field-news_events_title">
             <?php print($news_events_title) ?>
           </h2>
@@ -210,25 +211,23 @@ setup_postdata($post);
                 <div class="news-item news-item-long">
                   <?php render_homepage_event($events[0])?>
                 </div>
-	</section>
-		  <section class="ftco-animate"> 
+	
               <?php endif; ?>
               <?php if( isset($events[1])) : ?>
                 <div class="news-item news-item-short">
                   <?php render_homepage_event($events[1])?>
                 </div>
               <?php endif; ?>
-			  </section>
+			
             </div>
-             <section class="ftco-animate">
+             
             <div class="news-events-column pure-u-1 pure-u-lg-1-2">
               <?php if( isset($events[2])) : ?>
                 <div class="news-item news-item-short">
                   <?php render_homepage_event($events[2])?>
                 </div>
               <?php endif; ?>
-		     </section>
-		        <section class="ftco-animate">
+	
               <?php if( isset($events[3])) : ?>
                 <div class="news-item news-item-long">
                   <?php render_homepage_event($events[3])?>
