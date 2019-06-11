@@ -6,7 +6,40 @@
  *
  * @package Elms_College_Redesign
  */
+/**
+ * Parse JSON string that may contain HTML elements - requires jQuery
+ *
+ * @param {string} string JSON text to attempt to parse
+ * @returns {object} Either JSON-parsed object or object with a message key containing an error message
+ */
+function maybe_parse_json( string ) {
+	var json_object;
 
+	// Parse valid JSON
+	try {
+		json_object = jQuery.parseJSON( string );
+	} catch ( exception ) {
+
+		// The JSON didn't parse most likely because PHP warnings.
+		// We attempt to strip out all content up to the expected JSON `{"`
+		var second_try = string.replace( /((.|\n)+?){"/gm, "{\"" );
+
+		try {
+			json_object = $.parseJSON( second_try );
+		} catch ( exception ) {
+
+			// If it doesn't work the second time, just log the error
+			console.log( '*** \n*** \n*** Error-causing response:\n***\n***\n', string );
+
+			// And return an error message.
+			json_object = {
+				message: 'JSON failed: another plugin caused a conflict with completing this request. Check your browser\'s Javascript console to view the invalid content.'
+			};
+		}
+	}
+
+	return json_object;
+}
 
 if ( ! function_exists( 'gs_elms_setup' ) ) :
 /**
