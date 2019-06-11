@@ -6,12 +6,6 @@
  *
  * @package Elms_College_Redesign
  */
-/**
- * Parse JSON string that may contain HTML elements - requires jQuery
- *
- * @param {string} string JSON text to attempt to parse
- * @returns {object} Either JSON-parsed object or object with a message key containing an error message
- */
 
 if ( ! function_exists( 'gs_elms_setup' ) ) :
 /**
