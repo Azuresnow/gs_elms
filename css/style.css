@@ -9373,15 +9373,15 @@ textarea.form-control {
   #section-counter:after {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 35;
     bottom: 0;
-    right: 0;
+    right: 35;
     content: '';
     z-index: -1;
     opacity: 1;
     height: 200px;
-  background-color: #c3a250; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#c3a250, white); /* Standard syntax (must be last) */ }
+    background-color: #115438;
+    background-image: linear-gradient(#115438,#eee);}
 
 .ftco-counter {
   overflow-x: hidden;
@@ -9408,7 +9408,7 @@ textarea.form-control {
     .ftco-counter .text .number {
           line-height: 1;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
   .ftco-counter .text-2 {
     padding-left: 1em; }
