@@ -9379,7 +9379,9 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: 1;
-    background: #fda729; }
+    height: 200px;
+  background-color: #c3a250; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#c3a250, white); /* Standard syntax (must be last) */ }
 
 .ftco-counter {
   overflow-x: hidden;
@@ -10005,7 +10007,7 @@ body {
   background-color: rgba(0,0,0,.7);
 }
 
-.hero, .hero 
+.hero_h, .hero_p
 {
   margin: 0;
   text-align: right;
