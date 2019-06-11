@@ -95,19 +95,53 @@ setup_postdata($post);
         </div>
       </div>
 
-      <div class="section-statistics-container" style="<?php print_acf_image_as_background_style($statistics_background)?>">
-
-            <ul class="section-statistics pure-g">
-          <?php foreach ($statistics as $index=>$statistic) : ?>
-            <li class="statistic pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-              <div class="statistic-inner">
-                <div class="field-statistic_figure"><?php print($statistic["figure"]) ?></div>
-                <div class="field-statistic_explanation"><?php print($statistic["explanation"]) ?></div>
+       <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.9">
+    	<div class="container">
+				<div class="row">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="300">0</strong>
               </div>
-            </li>
-          <?php endforeach; ?>
-        </ul>
-      </div>
+              <div class="text-2">
+              	<span>Years of <br>Experience</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="1500">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Undergraduate <br>Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="300">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Graduate <br>Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="300">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Happy <br>Customers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+      <section class="ftco-animate">   
       <section class="ftco-animate">      
 	<section id="slider">
   <input type="radio" name="slider" id="s1">
