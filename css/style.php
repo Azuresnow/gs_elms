@@ -4,6 +4,11 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
