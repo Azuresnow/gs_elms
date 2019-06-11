@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 </style>
 
-?> 
+
 
 <?php
 global $fake_id;
