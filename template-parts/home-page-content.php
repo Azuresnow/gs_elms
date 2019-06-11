@@ -195,6 +195,26 @@ setup_postdata($post);
   <label for="s4" id="slide4"></label>
   <label for="s5" id="slide5"></label>
 </section>
+	             <section class="ftco-animate">	
+      <?php get_template_part("template-parts/story-carousel", "student") ?>	
+
+       <div class="news-events">	
+        <div class="news-events-inner">	
+          <p class="pre-title">	
+            <?php print($news_events_pre_title) ?>	
+          </p>	
+
+
+           <h2 class="field-news_events_title">	
+            <?php print($news_events_title) ?>	
+          </h2>	
+          <div class="news-events-feature pure-g">	
+            <div class="news-events-column pure-u-1 pure-u-lg-1-2">	
+
+               <?php if( isset($events[0])) : ?>	
+                <div class="news-item news-item-long">	
+                  <?php render_homepage_event($events[0])?>	
+                </div>
               <?php endif; ?>
               <?php if( isset($events[1])) : ?>
                 <div class="news-item news-item-short">
