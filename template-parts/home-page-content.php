@@ -1,3 +1,5 @@
+<?php Header ("Content-type: text/css; charset=utf-8");?> 
+
 <style>
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
@@ -22,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 </style>
 
- 
+?> 
 
 <?php
 global $fake_id;
