@@ -205,41 +205,6 @@ setup_postdata($post);
           </p>	
 
 
-           <h2 class="field-news_events_title">	
-            <?php print($news_events_title) ?>	
-          </h2>	
-          <div class="news-events-feature pure-g">	
-            <div class="news-events-column pure-u-1 pure-u-lg-1-2">	
-
-               <?php if( isset($events[0])) : ?>	
-                <div class="news-item news-item-long">	
-                  <?php render_homepage_event($events[0])?>	
-                </div>
-              <?php endif; ?>
-              <?php if( isset($events[1])) : ?>
-                <div class="news-item news-item-short">
-                  <?php render_homepage_event($events[1])?>
-                </div>
-              <?php endif; ?>
-			
-            </div>
-             
-            <div class="news-events-column pure-u-1 pure-u-lg-1-2">
-              <?php if( isset($events[2])) : ?>
-                <div class="news-item news-item-short">
-                  <?php render_homepage_event($events[2])?>
-                </div>
-              <?php endif; ?>
-	
-              <?php if( isset($events[3])) : ?>
-                <div class="news-item news-item-long">
-                  <?php render_homepage_event($events[3])?>
-                </div>
-              <?php endif; ?>
-		    </section>
-            </div>
-          </div>
-        </div>
         
         <div class="more-button-container">
           <a class="more-button" href="/events/">
