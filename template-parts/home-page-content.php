@@ -195,23 +195,7 @@ setup_postdata($post);
   <label for="s4" id="slide4"></label>
   <label for="s5" id="slide5"></label>
 </section>
-	             <section class="ftco-animate">	
-      <?php get_template_part("template-parts/story-carousel", "student") ?>	
-
-       <div class="news-events">	
-        <div class="news-events-inner">	
-          <p class="pre-title">	
-            <?php print($news_events_pre_title) ?>	
-          </p>	
-
-
-        
-        <div class="more-button-container">
-          <a class="more-button" href="/events/">
-            More Events
-          </a>
-        </div>
-      </div>
+	
       
       <div class="calls-to-action">
         <div class="calls-to-action-title">
