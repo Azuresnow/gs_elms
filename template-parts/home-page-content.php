@@ -137,7 +137,7 @@ setup_postdata($post);
           <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18 d-flex">
               <div class="text d-flex align-items-center">
-                <strong class="number" data-number="75%">0%</strong>
+		      <strong class="number" data-number="75"><strong>%</strong>0%</strong>
               </div>
               <div class="text-2">
               	<span>Years of <br>Experience</span>
