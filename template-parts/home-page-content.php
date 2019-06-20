@@ -35,7 +35,7 @@
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/flaticon.css">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/icomoon.css">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/style.css">
-	 <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/style_4.css">
+	 <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/style_4.css">
 
 
 <?php
