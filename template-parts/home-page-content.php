@@ -35,7 +35,7 @@
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/flaticon.css">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/icomoon.css">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/gs_elms/css/style.css">
-
+	 <link rel="stylesheet" href="/wp-content/themes/gs_elms/css/style_4.css">
 
 
 <?php
@@ -196,6 +196,29 @@ setup_postdata($post);
   <label for="s5" id="slide5"></label>
 </section>
 	
+	    <section class="ftco-animate">       
+	<div class="container">
+  <div class="card">
+    <img src="https://internshell-1-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/03/Katherine-Casado-19_edited.jpg">
+            
+      
+    <div class="card__head">Katherine Casado '19</div>
+      
+</div>
+  <div class="card">
+    <img src="https://internshell-1-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/04/DSC_0137.jpg">
+    <div class="card__head">Janis Luna '19</div>
+  </div>
+  <div class="card">
+    <img src="https://internshell-1-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/03/Chris-Soderberg-19.jpg">
+    <div class="card__head">Chris Soderberg '19</div>
+  </div>
+  <div class="card">
+    <img src="https://internshell-1-staging.r6a5yukd-liquidwebsites.com/wp-content/uploads/2019/02/Dionna-Lockett-19.jpg ">
+    <div class="card__head">Dionna Lockett '19</div>
+  </div>
+</div>      
+<section>	      
       
       <div class="calls-to-action">
         <div class="calls-to-action-title">
